@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40B3B14C20537232006767C6 /* 扭蛋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "扭蛋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B3B14C20537232006767C6 /* 扭蛋事务所.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "扭蛋事务所.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B3B14F20537232006767C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40B3B15120537232006767C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40B3B15420537232006767C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		40B3B14D20537232006767C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40B3B14C20537232006767C6 /* 扭蛋.app */,
+				40B3B14C20537232006767C6 /* 扭蛋事务所.app */,
 				40B3B16020537232006767C6 /* 扭蛋Tests.xctest */,
 				40B3B16B20537233006767C6 /* 扭蛋UITests.xctest */,
 			);
@@ -142,7 +142,7 @@
 			);
 			name = "扭蛋";
 			productName = "扭蛋";
-			productReference = 40B3B14C20537232006767C6 /* 扭蛋.app */;
+			productReference = 40B3B14C20537232006767C6 /* 扭蛋事务所.app */;
 			productType = "com.apple.product-type.application";
 		};
 		40B3B15F20537232006767C6 /* 扭蛋Tests */ = {
@@ -426,12 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M26DKCGR4U;
 				INFOPLIST_FILE = "扭蛋/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoboswift.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "扭蛋事务所";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,12 +443,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M26DKCGR4U;
 				INFOPLIST_FILE = "扭蛋/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoboswift.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "扭蛋事务所";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

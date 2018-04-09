@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var LimitTime: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +21,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func DoOneTime(_ sender: Any) {
+    }
+    @IBAction func Machine(_ sender: Any) {
+    }
+    @IBAction func Room(_ sender: Any) {
+    }
+    @IBAction func Yours(_ sender: Any) {
+    }
+    
 }
 
